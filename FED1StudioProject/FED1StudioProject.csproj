@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="custom.css" />
+    <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
@@ -89,7 +89,6 @@
   <ItemGroup>
     <Folder Include="images\" />
     <Folder Include="scripts\" />
-    <Folder Include="stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
