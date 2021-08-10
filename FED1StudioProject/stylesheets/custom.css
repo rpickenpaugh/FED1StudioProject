@@ -32,3 +32,17 @@ footer {
     border-style: double;
     border-color: #D95043;
 }
+
+.selected {
+    color: darkblue;
+    background-color: teal;
+}
+
+nav ul li a {
+    padding: .4em 1em;
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+}
