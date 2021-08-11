@@ -1,4 +1,13 @@
-﻿h1 {
+﻿/*colors:
+    #5FB6D9 - ocean blue
+    #59441D - pika brown
+    #BF8B2A - pika light brown
+    #F2D541 - pika yellow
+    #D95043 - pika red
+*/
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Palette+Mosaic&family=Turret+Road:wght@500&display=swap');
+
+h1 {
     color: #F2D541;
     font-size: 32px;
 }
@@ -33,9 +42,9 @@ footer {
     border-color: #D95043;
 }
 
-.selected {
-    color: darkblue;
-    background-color: teal;
+.selected, a:hover {
+    color: #D95043;
+    background-color: #59441D;
 }
 
 nav ul li a {
@@ -45,4 +54,21 @@ nav ul li a {
 
 nav ul li {
     display: inline-block;
+}
+
+nav a {
+    font-weight: bold;
+    color: #5FB6D9;
+}
+
+nav ul {
+    background-color: #BF8B2A;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+html {
+    font-family: 'Turret Road', cursive;
 }
