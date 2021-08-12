@@ -13,9 +13,17 @@ h1 {
 }
 
 main {
-    background-color: #5FB6D9;
-     border-style: double;
+    background-color: rgba(37, 71, 85, .5);
+    border-style: double;
     border-color: #D95043;
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+
+body {
+    background: url('../images/surfing_pikachu.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .headingStyle {
@@ -27,25 +35,19 @@ main {
     background-color: #BF8B2A;
     color: darkslategray;
     text-transform: uppercase;
-
-}
-
-header {
-    background-color: #BF8B2A;
-    border-style: double;
-    border-color: #D95043;
 }
 
 footer {
     background-color: #BF8B2A;
     border-style: double;
     border-color: #D95043;
+    text-align: center;
+    margin: 2em 0;
 }
 
 .selected, a:hover {
     color: #D95043;
     background-color: #59441D;
-
 }
 
 nav ul li a {
@@ -72,4 +74,30 @@ nav ul {
 
 html {
     font-family: 'Turret Road', cursive;
+}
+
+.face img {
+    width: 450px;
+    height: 450px;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+th, td {
+    padding: .3em;
+}
+
+thead, tfoot {
+    background-color: #D95043;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F2D541;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #D95043;
 }

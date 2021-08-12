@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\face1.jpg" />
+    <Content Include="images\face2.jpg" />
+    <Content Include="images\face3.jpg" />
+    <Content Include="images\face4.jpg" />
+    <Content Include="images\pikasurflogo.jpg" />
+    <Content Include="images\surfing_pikachu.jpg" />
     <Content Include="stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
@@ -87,7 +93,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
